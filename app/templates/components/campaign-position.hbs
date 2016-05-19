@@ -1,0 +1,21 @@
+{{#unless isRemain}}
+  {{#link-to "why.topic.remain" classNames="argument__counter-arg-link argument__counter-arg-link-remain"}}
+      <h2 class="argument__counter-arg-link-text">Remain</h2>
+  {{/link-to}}
+{{/unless}}
+<div class="argument">
+  {{#if isRemain}}
+      <h1 class="argument__title">remain</h1>
+  {{else}}
+      <h1 class="argument__title">leave</h1>
+  {{/if}}
+    <h2 class="argument__headline">{{headline}}</h2>
+    <div class="argument__body">
+      {{{body}}}
+    </div>
+</div>
+{{#if isRemain}}
+  {{#link-to "why.topic.leave" classNames="argument__counter-arg-link argument__counter-arg-link-leave"}}
+      <h2 class="argument__counter-arg-link-text">Leave</h2>
+  {{/link-to}}
+{{/if}}

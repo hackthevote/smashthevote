@@ -1,0 +1,99 @@
+<div class="container how">
+  {{page-nav back-page="index" page-name="how"}}
+    <div class="explainers">
+        <!--<img class="how-voter-graphic" src="/images/voting.svg" alt="Voter graphic">-->
+        <div class="explanation explanation__left">
+            <div class="explanation__question" {{action 'toggleExplanation' 'eu-ref-info'}}>
+                <div class="explanation__question-text">
+                    what&apos;s the EU referendum?
+                </div>
+            </div>
+            <div class="explanation__text eu-ref-info">
+                <p>
+                    David Cameron won the 2015 general election on a pledge to hold an in-out referendum on the UK&apos;s
+                    membership of the European Union no later than the end of 2017.
+                </p>
+                <p>
+                    The referendum will ask British voters this question: &quot;Should the United Kingdom remain a
+                    member of the European Union or leave the European Union?&quot;
+                </p>
+                <p>
+                  {{#link-to "why.index"}}Explore the topics related to the debate{{/link-to}}
+                </p>
+            </div>
+        </div>
+        <div class="explanation explanation__right">
+            <div class="explanation__question" {{action 'toggleExplanation' 'who-can-vote'}}>
+                <div class="explanation__question-text">
+                    who can vote?
+                </div>
+            </div>
+            <div class="explanation__text who-can-vote">
+                <p>
+                    Anyone who would be entitled to vote in a parliamentary election in the UK has the right to participate
+                    in the in/out vote on the EU.  This includes:
+                </p>
+                <h4 class="explanation__text-title">British citizens</h4>
+                <p>
+                    over 18 who are resident in the UK
+                </p>
+                <h4 class="explanation__text-title">Irish citizens</h4>
+                <p>
+                    over 18 who are resident in the UK (due to historically close Anglo-Irish links)
+                </p>
+                <h4 class="explanation__text-title">Maltese and Cypriots</h4>
+                <p>
+                    over 18 who are resident in the UK (other EU citizens will not)
+                </p>
+                <h4 class="explanation__text-title">Commonwealth-born citizens</h4>
+                <p>
+                    over 18 who are resident in the UK
+                </p>
+                <h4 class="explanation__text-title">British expats</h4>
+                <p>
+                    who have lived overseas for less than 15 years
+                </p>
+                <h4 class="explanation__text-title">Commonwealth citizens in Gibraltar</h4>
+                <p>
+                    over 18
+                </p>
+                <h4 class="explanation__text-title">Members of the House of Lords in Gibraltar</h4>
+                <p>
+                    will also be entitled to vote
+                </p>
+            </div>
+        </div>
+        <div class="explanation explanation__left">
+            <div class="explanation__question" {{action 'toggleExplanation' 'how-to-vote'}}>
+                how do I vote?
+            </div>
+            <div class="explanation__text how-to-vote">
+                <h2 class="explanation__text-title">Register</h2>
+                <p>
+                    First off you'll need to register to vote - it takes just 5 mins
+                </p>
+                <p>
+                    All you need is:
+                </p>
+                <ol>
+                    <li>National insurance number</li>
+                    <li>
+                        A fixed home address - the address you&apos;ll be based at when it&apos;s time to vote
+                        on June 23rd
+                    </li>
+                </ol>
+                <p>
+                    The deadline to register is Tuesday 7th June
+                </p>
+                <p>
+                    If you don't know where you&apos;ll be you can change your address all the way up until the 7th June
+                </p>
+                <a href="https://www.gov.uk/register-to-vote" class="register-button">Register now</a>
+                <p>
+                    After you&apos;ve registered you will be able to vote on June 23rd.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,17 @@
+<div class="container why">
+    {{page-nav back-page="index" page-name="topics"}}
+    <div class="page-help">Tap a topic to learn more about it.</div>
+    <div class="topics-container">
+        <div class="topic-list">
+          {{#each model as |topic index|}}
+            {{#link-to "why.topic" topic.name classNames="topic"}}
+              {{#if (iseven index) }}
+                  <div class="topic__text topic__even">{{topic.name}}</div>
+              {{else}}
+                  <div class="topic__text topic__odd">{{topic.name}}</div>
+              {{/if}}
+            {{/link-to}}
+          {{/each}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="container when">
+  {{page-nav back-page="index" page-name="when"}}
+    <div class="timeline">
+        <div class="timeline__line-today"></div>
+        <div class="timeline__today">
+            <span class="timeline__today-text">{{date-display}}</span>
+        </div>
+      {{#each sortedEvents as |event|}}
+        <div class="timeline__line"></div>
+        {{timeline-event date=event.date name=event.name official=event.official}}
+      {{/each}}
+    </div>
+</div>
+

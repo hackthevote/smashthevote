@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Smash Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Smash-Logo">
+            <g id="smash_logo_standalone">
+                <rect id="Rectangle-7" fill="#F1C40F" x="0" y="0" width="250" height="250"></rect>
+                <polygon id="Rectangle-8" fill="#16A085" points="0 134.31211 250 70 250 250 0 250"></polygon>
+                <text id="THEVOTE!" transform="translate(123.929106, 136.718232) rotate(-15.000000) translate(-123.929106, -136.718232) " font-family="Lato-Bold, Lato" font-size="40" font-weight="bold" fill="#F1C40F">
+                    <tspan x="26.4291063" y="151.718232">THEVOTE!</tspan>
+                </text>
+                <text id="SMASH" transform="translate(122.530798, 78.271768) rotate(-14.000000) translate(-122.530798, -78.271768) " font-family="Lato-Bold, Lato" font-size="52" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="22.529101" y="98.2717676">SMASH</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
